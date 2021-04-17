@@ -11,3 +11,8 @@ def myfunc(a=0,b=0,c=0,d=0,e=0):
 
 x=myfunc(40,60,20)
 print(x)
+# Obviously this is not a very efficient solution, and that's where `*args` comes in.
+
+# ## `*args`
+
+# When a function parameter starts with an asterisk, it allows for an *arbitrary number* of arguments, and the function takes them in as a tuple of values. Rewriting the above function:
